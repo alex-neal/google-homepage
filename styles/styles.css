@@ -1,0 +1,162 @@
+#container {
+	width: 990px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+/* Logo, search form */
+#center-content {
+	width: 570px;
+	margin-left:auto;
+	margin-right:auto;
+	position: relative;
+	right: -30px;
+}
+.center-content {
+	display: inline-block;
+}
+/* Little buttons to right of google logo */
+.button-image {
+	height: 32px;
+	width: 32px;
+	display: block;
+	margin: 4px;
+}
+#logo-buttons {
+	position: relative;
+	bottom: 105px;
+}
+form {
+	width: 570px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+
+}
+#searchbar {
+	outline: none;
+	width: 570px;
+	font-size: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	padding: 10px;
+	border: 1px solid #e0e0e0;
+	width: 100%;
+}
+#searchbar:hover {
+	border-color: #c0c0c0;
+}
+#searchbar:focus {
+	border-color: #0080ff;
+}
+/* Div around the form */
+#form {
+	position: relative;
+}
+#microphone {
+	position: absolute;
+	height: 24px;
+	width: 24px;
+	right: 196px;
+    top: 13px;
+}
+/* Google search and I'm feeling lucky */
+.button {
+	position: relative;
+	background-color: #f2f2f2;
+	padding: 10px 18px;
+	margin: 1px;
+	color: #757575;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	border: 1px solid #f2f2f2;
+}
+.button:hover {
+	border: 1px solid #c0c0c0;
+	color: black;
+}
+/* Div containing both search and feeling lucky buttons */
+#buttons {
+	position: relative;
+	width: 290px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+.navbar a {
+	text-decoration: none;
+}
+.navbar a:hover {
+	text-decoration: underline;
+}
+.navbar a:visited {
+	color: #757575;
+}
+.navbar li {
+	display: inline;
+	padding: 15px;
+}
+#topnav li {
+	padding: 6px;
+}
+.navbar li img {
+	vertical-align: middle;
+}
+#user-icon {
+	border-radius: 50%;
+	height: 32px;
+	width: 32px;
+}
+#topnav {
+	position: absolute;
+	top: 15px;
+	right: 30px;
+}
+.nav-icon {
+	height: 25px;
+	width: 25px;
+	opacity: 0.6;
+}
+.nav-icon:hover {
+	opacity: 1;
+}
+#bot-left-nav {
+	position: relative;
+	float: left;
+	margin-left: 15px;
+
+}
+#bot-right-nav {
+	position: relative;
+	float: right;
+	margin-right: 15px;
+}
+.navdiv {
+	width: 100%;
+	border-top: 1px solid #d2d2d2;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	min-width: 980px;
+	background-color: #f2f2f2;
+	line-height: 38px;
+}
+#top-nav-div {
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	min-width: 980px;
+}
